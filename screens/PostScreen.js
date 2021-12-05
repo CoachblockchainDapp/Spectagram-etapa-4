@@ -64,7 +64,7 @@ export default class PostScreen extends Component {
                             <View style={styles.actionContainer}>
                                 <View style={styles.likeButton}>
                                     <Ionicons name={"heart"} size={RFValue(30)} color={"white"} />
-                                    <Text style={styles.likeText}>12k</Text>
+                                    <Text style={styles.likeText}>12m</Text>
                                 </View>
                             </View>
                         </ScrollView>
