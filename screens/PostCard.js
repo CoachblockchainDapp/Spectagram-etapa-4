@@ -19,7 +19,7 @@ export default class PostCard extends Component {
 
     render() {
         return (
-            <TouchableOpacity style={styles.container} onPress={() => this.props.navigation.navigate("PostScreen", post = this.props.post)}>
+            <TouchableOpacity style={styles.container} onPress={() => this.props.navigation.navigate("PantalladePublicación", post = this.props.post)}>
                 <View style={styles.cardContainer}>
                     <View style={styles.authorContainer}>
                         <View style={styles.authorImageContainer}>
@@ -41,7 +41,7 @@ export default class PostCard extends Component {
                     <View style={styles.actionContainer}>
                         <View style={styles.likeButton}>
                             <Ionicons name={"heart"} size={RFValue(30)} color={"white"} />
-                            <Text style={styles.likeText}>12k</Text>
+                            <Text style={styles.likeText}>12m</Text>
                         </View>
                     </View>
                 </View>
