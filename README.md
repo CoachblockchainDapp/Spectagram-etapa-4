@@ -1,2 +1,2 @@
 # spectagram-etapa-4
-solución del proyect c84
+solución del proyecto c84
