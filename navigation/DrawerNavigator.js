@@ -8,8 +8,8 @@ const Drawer = createDrawerNavigator();
 const DrawerNavigator = () => {
     return (
         <Drawer.Navigator>
-            <Drawer.Screen name="Home" component={StackNavigator} />
-            <Drawer.Screen name="Profile" component={Profile} />
+            <Drawer.Screen name="Inicio" component={StackNavigator} />
+            <Drawer.Screen name="Perfil" component={Profile} />
         </Drawer.Navigator>
     );
 };
